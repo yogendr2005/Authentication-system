@@ -8,7 +8,7 @@ const bcrypt = require('bcrypt');
 const validator = require('validator');
 const session = require('express-session');
 
-mongoose.connect('mongodb://localhost:27017/Authentication', {
+mongoose.connect('mongodb+srv://yogendravadhvana:vhbPvNz2Lc5W2pTq@cluster0.dsurtd5.mongodb.net/Authentication', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
